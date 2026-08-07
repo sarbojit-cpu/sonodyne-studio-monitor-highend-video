@@ -1,0 +1,74 @@
+[
+	{
+		"family": "Archivo",
+		"weight": 400,
+		"file": "fonts/archivo-400.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Archivo",
+		"weight": 500,
+		"file": "fonts/archivo-500.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Archivo",
+		"weight": 600,
+		"file": "fonts/archivo-600.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Archivo",
+		"weight": 700,
+		"file": "fonts/archivo-700.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Archivo",
+		"weight": 800,
+		"file": "fonts/archivo-800.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Barlow Condensed",
+		"weight": 500,
+		"file": "fonts/barlow-condensed-500.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Barlow Condensed",
+		"weight": 600,
+		"file": "fonts/barlow-condensed-600.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Barlow Condensed",
+		"weight": 700,
+		"file": "fonts/barlow-condensed-700.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Noto Sans Devanagari",
+		"weight": 600,
+		"file": "fonts/noto-sans-devanagari-600.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Noto Sans Devanagari",
+		"weight": 700,
+		"file": "fonts/noto-sans-devanagari-700.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Noto Sans Bengali",
+		"weight": 600,
+		"file": "fonts/noto-sans-bengali-600.woff2",
+		"format": "woff2"
+	},
+	{
+		"family": "Noto Sans Bengali",
+		"weight": 700,
+		"file": "fonts/noto-sans-bengali-700.woff2",
+		"format": "woff2"
+	}
+]

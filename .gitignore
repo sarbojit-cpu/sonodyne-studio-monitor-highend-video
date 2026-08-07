@@ -141,3 +141,19 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# --- Sonodyne reel build ---
+# Generated assets: rebuilt deterministically by `npm run assets`.
+reel/public/img/
+reel/public/cut/
+# Music bed is dropped in locally (see AUDIO.md); the folder itself is tracked.
+reel/public/audio/*.mp3
+reel/node_modules/
+# Development-only inspection output
+.contact/
+.stills/
+
+# The finished deliverables live in out/. The stock Next.js rule above ignores
+# any path called "out", so re-include this one explicitly.
+!out/
+!out/*
