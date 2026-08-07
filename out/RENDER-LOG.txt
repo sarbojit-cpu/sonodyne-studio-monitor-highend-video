@@ -1,0 +1,18 @@
+SONODYNE STUDIO SERIES — REEL RENDER LOG
+
+File           sonodyne-studio-series-reel.mp4
+Resolution     1080x1920 (9:16 portrait)
+Frame rate     30 fps
+Duration       96.10s (2883 frames)
+Codec          H.264, CRF 17, no size-driven compression
+File size      29.7 MB
+Render time    9.4 min
+Audio          none — see AUDIO.md
+
+Thumbnails
+  reel_thumbnail_EN.png — 1080x1920 PNG, 1.7MB
+  reel_thumbnail_HI.png — 1080x1920 PNG, 1.7MB
+  reel_thumbnail_BN.png — 1080x1920 PNG, 1.7MB
+
+Within GitHub 100MB per-file limit; committed directly.
+

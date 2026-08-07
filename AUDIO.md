@@ -1,8 +1,9 @@
 # Audio — not included in this render, and why
 
-The reel currently renders **silent**. This is the one part of the brief I could
-not complete in this build environment, and it is not a shortcut — it is a hard
-block:
+The reel currently renders **silent** — it carries a silent AAC track (which
+keeps platform uploaders happy) but no music or SFX. This is the one part of the
+brief I could not complete in this build environment, and it is not a shortcut —
+it is a hard block:
 
 - **No licensed music library.** There is no music or SFX asset anywhere in the
   repository, and no rights-cleared library is reachable from here.
