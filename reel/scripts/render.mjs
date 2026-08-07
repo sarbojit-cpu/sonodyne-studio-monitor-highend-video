@@ -124,7 +124,9 @@ const main = async () => {
 		composition: comp,
 		serveUrl,
 		codec: 'h264',
-		output: out,
+		// renderMedia takes `outputLocation`; only renderStill takes `output`.
+		// Passing `output` here renders every frame and then discards them.
+		outputLocation: out,
 		browserExecutable: BROWSER,
 		chromiumOptions,
 		imageFormat: 'jpeg',
