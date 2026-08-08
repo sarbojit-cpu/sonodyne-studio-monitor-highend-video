@@ -111,9 +111,12 @@ const run = async () => {
 	// The reel renders silent unless a music bed is dropped in. Recording that
 	// here keeps the composition free of any runtime filesystem check.
 	const hasMusic = existsSync(path.resolve(here, '..', 'public', 'audio', 'music.mp3'));
+	const hasLongformAudio = existsSync(
+		path.resolve(here, '..', 'public', 'audio', 'longform.wav')
+	);
 	await writeFile(
 		path.resolve(here, '..', 'src', 'data', 'audio.json'),
-		JSON.stringify({hasMusic}, null, '\t') + '\n'
+		JSON.stringify({hasMusic, hasLongformAudio}, null, '\t') + '\n'
 	);
 	console.log(
 		`prepare-assets: ${converted} converted, ${cached} cached, ${

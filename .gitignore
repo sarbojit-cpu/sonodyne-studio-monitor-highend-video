@@ -148,6 +148,8 @@ reel/public/img/
 reel/public/cut/
 # Music bed is dropped in locally (see AUDIO.md); the folder itself is tracked.
 reel/public/audio/*.mp3
+# Long-form soundtrack: regenerated deterministically by scripts/make_longform_audio.py
+reel/public/audio/*.wav
 reel/node_modules/
 # Development-only inspection output
 .contact/

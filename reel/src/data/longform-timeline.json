@@ -1,0 +1,52 @@
+{
+	"comment": "Single source of truth for the long-form cut. Read by BOTH the Remotion composition (src/long/timeline.ts) and the audio synthesizer (scripts/make_longform_audio.py), so picture and soundtrack agree by construction. Frame lengths follow the brief's Section 12 long-form allocation: 60s intro, 90s per monitor, 120s subwoofer, 60s outro, at 30fps, with 30-frame crossfades between segments.",
+	"fps": 30,
+	"xfade": 30,
+	"segments": [
+		{"id": "intro", "frames": 1800},
+		{"id": "srp350", "frames": 2700},
+		{"id": "srp400", "frames": 2700},
+		{"id": "srp501", "frames": 2700},
+		{"id": "srp601", "frames": 2700},
+		{"id": "slf210", "frames": 3600},
+		{"id": "outro", "frames": 1800}
+	],
+	"transitions": ["dip", "bladeLeft", "rack", "bladeRight", "dip", "rack"],
+	"comment2": "Per-segment internal cues, in frames relative to that segment's own start. The audio script places soft ticks on these; the scenes place the matching visual moments on the same numbers.",
+	"cues": {
+		"intro": {
+			"beats": [90, 360, 640, 900],
+			"lineup": 1150
+		},
+		"product": {
+			"psych": [340, 650, 960],
+			"overlay": 1180,
+			"specSheet": 1800,
+			"shotLen": 660
+		},
+		"slf210": {
+			"recapOut": 460,
+			"psych": [700, 980],
+			"bassMgmt": 1300,
+			"phaseDial": 2050,
+			"specSheet": 2600,
+			"shotLen": 800
+		},
+		"outro": {
+			"headline": 60,
+			"heritage": 830,
+			"contactsFrom": 420,
+			"addressAt": 1280
+		}
+	},
+	"comment3": "Music phases per PDF Section 10, keyed by segment id. minimal: subdued ambient + intricate micro-arpeggio. driving: mid-tempo pulse, wider stereo. sub: floor-shaking low-end swell. settle: strip back for the CTA.",
+	"musicPhase": {
+		"intro": "minimal",
+		"srp350": "minimal",
+		"srp400": "minimal",
+		"srp501": "driving",
+		"srp601": "driving",
+		"slf210": "sub",
+		"outro": "settle"
+	}
+}

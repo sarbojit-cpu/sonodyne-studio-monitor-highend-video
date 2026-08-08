@@ -24,6 +24,7 @@ const outDir = path.resolve(root, '..', 'out');
 const args = process.argv.slice(2);
 const thumbsOnly = args.includes('--thumbnails-only');
 const stillsOnly = args.includes('--stills');
+const longform = args.includes('--longform');
 const stillFrames = (() => {
 	const i = args.indexOf('--frames');
 	if (i === -1) return [];
@@ -56,7 +57,7 @@ const main = async () => {
 	if (stillsOnly) {
 		const comp = await selectComposition({
 			serveUrl,
-			id: 'Reel',
+			id: longform ? 'LongForm' : 'Reel',
 			inputProps: {},
 			browserExecutable: BROWSER,
 			chromiumOptions,
@@ -79,8 +80,10 @@ const main = async () => {
 	}
 
 	// --- Thumbnails --------------------------------------------------------
+	const thumbPrefix = longform ? 'LongThumbnail' : 'Thumbnail';
+	const thumbFile = longform ? 'longform_thumbnail' : 'reel_thumbnail';
 	for (const lang of ['EN', 'HI', 'BN']) {
-		const id = `Thumbnail-${lang}`;
+		const id = `${thumbPrefix}-${lang}`;
 		const comp = await selectComposition({
 			serveUrl,
 			id,
@@ -88,7 +91,7 @@ const main = async () => {
 			browserExecutable: BROWSER,
 			chromiumOptions,
 		});
-		const out = path.join(outDir, `reel_thumbnail_${lang}.png`);
+		const out = path.join(outDir, `${thumbFile}_${lang}.png`);
 		await renderStill({
 			composition: comp,
 			serveUrl,
@@ -99,7 +102,7 @@ const main = async () => {
 		});
 		const size = (await stat(out)).size;
 		console.log(`thumbnail ${lang}: ${mb(size)}MB`);
-		log.push(`reel_thumbnail_${lang}.png — 1080x1920 PNG, ${mb(size)}MB`);
+		log.push(`${thumbFile}_${lang}.png — ${longform ? '1920x1080' : '1080x1920'} PNG, ${mb(size)}MB`);
 	}
 
 	if (thumbsOnly) {
@@ -107,16 +110,19 @@ const main = async () => {
 		return;
 	}
 
-	// --- Reel --------------------------------------------------------------
+	// --- Video -------------------------------------------------------------
 	const comp = await selectComposition({
 		serveUrl,
-		id: 'Reel',
+		id: longform ? 'LongForm' : 'Reel',
 		inputProps: {},
 		browserExecutable: BROWSER,
 		chromiumOptions,
 	});
 
-	const out = path.join(outDir, 'sonodyne-studio-series-reel.mp4');
+	const out = path.join(
+		outDir,
+		longform ? 'sonodyne-studio-series-longform.mp4' : 'sonodyne-studio-series-reel.mp4'
+	);
 	const started = Date.now();
 	let lastPct = -1;
 
@@ -148,16 +154,16 @@ const main = async () => {
 	const size = (await stat(out)).size;
 	const secs = comp.durationInFrames / comp.fps;
 	const summary = [
-		'SONODYNE STUDIO SERIES — REEL RENDER LOG',
+		`SONODYNE STUDIO SERIES — ${longform ? 'LONG-FORM' : 'REEL'} RENDER LOG`,
 		'',
-		`File           sonodyne-studio-series-reel.mp4`,
-		`Resolution     ${comp.width}x${comp.height} (9:16 portrait)`,
+		`File           ${path.basename(out)}`,
+		`Resolution     ${comp.width}x${comp.height} (${longform ? '16:9 landscape' : '9:16 portrait'})`,
 		`Frame rate     ${comp.fps} fps`,
 		`Duration       ${secs.toFixed(2)}s (${comp.durationInFrames} frames)`,
 		`Codec          H.264, CRF 17, no size-driven compression`,
 		`File size      ${mb(size)} MB`,
 		`Render time    ${((Date.now() - started) / 1000 / 60).toFixed(1)} min`,
-		`Audio          none — see AUDIO.md`,
+		`Audio          ${longform ? 'embedded — synthesized soundtrack (public/audio/longform.wav), AAC in mp4' : 'none — see AUDIO.md'}`,
 		'',
 		'Thumbnails',
 		...log.map((l) => `  ${l}`),
@@ -168,7 +174,10 @@ const main = async () => {
 		'',
 	].join('\n');
 
-	await writeFile(path.join(outDir, 'RENDER-LOG.txt'), summary + '\n');
+	await writeFile(
+		path.join(outDir, longform ? 'RENDER-LOG-LONGFORM.txt' : 'RENDER-LOG.txt'),
+		summary + '\n'
+	);
 	console.log('\n' + summary);
 };
 
