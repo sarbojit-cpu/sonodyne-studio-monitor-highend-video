@@ -1,0 +1,27 @@
+{
+  "name": "sonodyne-studio-reel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sonodyne Studio Series portrait reel + thumbnails for Shivansh Electronics",
+  "scripts": {
+    "assets": "node scripts/fetch-fonts.mjs && node scripts/prepare-assets.mjs && node scripts/cutouts.mjs",
+    "studio": "npm run assets && remotion studio",
+    "render": "npm run assets && node scripts/render.mjs",
+    "thumbnails": "npm run assets && node scripts/render.mjs --thumbnails-only"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.402",
+    "@remotion/media-utils": "4.0.402",
+    "@remotion/renderer": "4.0.402",
+    "@remotion/transitions": "4.0.402",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.402"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "^4.0.402",
+    "@types/react": "19.0.0",
+    "sharp": "0.33.5",
+    "typescript": "5.7.2"
+  }
+}

@@ -1,0 +1,504 @@
+{
+	"logo-shivansh": {
+		"src": "SHIVANSH ELECTRONICS BRAND LOGO.png",
+		"file": "img/logo-shivansh.png",
+		"width": 2372,
+		"height": 714,
+		"hash": "9b4fb776b6e3"
+	},
+	"logo-sonodyne": {
+		"src": "SONODYNE BRAND LOGO.png",
+		"file": "img/logo-sonodyne.png",
+		"width": 2372,
+		"height": 714,
+		"hash": "5d4333fa9421"
+	},
+	"slf210-01": {
+		"src": "SONODYNE SLF 210 V3 (1).webp",
+		"file": "img/slf210-01.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "b1de04e0d3b0"
+	},
+	"slf210-02": {
+		"src": "SONODYNE SLF 210 V3 (2).webp",
+		"file": "img/slf210-02.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "5544b8853826"
+	},
+	"slf210-03": {
+		"src": "SONODYNE SLF 210 V3 (3).webp",
+		"file": "img/slf210-03.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "7b0f6db00ab0"
+	},
+	"slf210-04": {
+		"src": "SONODYNE SLF 210 V3 (4).webp",
+		"file": "img/slf210-04.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "ace7ebd18bcb"
+	},
+	"slf210-05": {
+		"src": "SONODYNE SLF 210 V3 (5).webp",
+		"file": "img/slf210-05.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "df05f4038afa"
+	},
+	"slf210-06": {
+		"src": "SONODYNE SLF 210 V3 (6).webp",
+		"file": "img/slf210-06.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "b4a86107cf9a"
+	},
+	"slf210-07": {
+		"src": "SONODYNE SLF 210 V3 (7).webp",
+		"file": "img/slf210-07.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "04bbcd22a327"
+	},
+	"slf210-08": {
+		"src": "SONODYNE SLF 210 V3 (8).webp",
+		"file": "img/slf210-08.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "98cd4f0354e1"
+	},
+	"srp350-01": {
+		"src": "SONODYNE SRP 350 (1).webp",
+		"file": "img/srp350-01.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "25ed897d3615"
+	},
+	"srp350-10": {
+		"src": "SONODYNE SRP 350 (10).webp",
+		"file": "img/srp350-10.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "fab490cffc5c"
+	},
+	"srp350-11": {
+		"src": "SONODYNE SRP 350 (11).webp",
+		"file": "img/srp350-11.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "01b2cd56ad58"
+	},
+	"srp350-12": {
+		"src": "SONODYNE SRP 350 (12).webp",
+		"file": "img/srp350-12.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "2c8cf0c3c2bd"
+	},
+	"srp350-13": {
+		"src": "SONODYNE SRP 350 (13).webp",
+		"file": "img/srp350-13.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "4413cf6d58ac"
+	},
+	"srp350-14": {
+		"src": "SONODYNE SRP 350 (14).webp",
+		"file": "img/srp350-14.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "9e4876f3cad0"
+	},
+	"srp350-15": {
+		"src": "SONODYNE SRP 350 (15).webp",
+		"file": "img/srp350-15.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "5a8b29b09b13"
+	},
+	"srp350-16": {
+		"src": "SONODYNE SRP 350 (16).webp",
+		"file": "img/srp350-16.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "0372ef13832e"
+	},
+	"srp350-02": {
+		"src": "SONODYNE SRP 350 (2).webp",
+		"file": "img/srp350-02.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "3eae7f7ff7ed"
+	},
+	"srp350-03": {
+		"src": "SONODYNE SRP 350 (3).webp",
+		"file": "img/srp350-03.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "217ac2362da3"
+	},
+	"srp350-04": {
+		"src": "SONODYNE SRP 350 (4).webp",
+		"file": "img/srp350-04.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "e863668cd04a"
+	},
+	"srp350-05": {
+		"src": "SONODYNE SRP 350 (5).webp",
+		"file": "img/srp350-05.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "9572578e29eb"
+	},
+	"srp350-06": {
+		"src": "SONODYNE SRP 350 (6).webp",
+		"file": "img/srp350-06.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "e433422a038d"
+	},
+	"srp350-07": {
+		"src": "SONODYNE SRP 350 (7).webp",
+		"file": "img/srp350-07.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "5dfca332566b"
+	},
+	"srp350-08": {
+		"src": "SONODYNE SRP 350 (8).webp",
+		"file": "img/srp350-08.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "2a933f0186c5"
+	},
+	"srp350-09": {
+		"src": "SONODYNE SRP 350 (9).webp",
+		"file": "img/srp350-09.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "ca78424941a0"
+	},
+	"srp350-00": {
+		"src": "SONODYNE SRP 350.webp",
+		"file": "img/srp350-00.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "ab3d23363434"
+	},
+	"srp400-01": {
+		"src": "SONODYNE SRP 400 (1).webp",
+		"file": "img/srp400-01.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "3f50946631d3"
+	},
+	"srp400-10": {
+		"src": "SONODYNE SRP 400 (10).webp",
+		"file": "img/srp400-10.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "f772ed09b5bf"
+	},
+	"srp400-11": {
+		"src": "SONODYNE SRP 400 (11).webp",
+		"file": "img/srp400-11.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "3f50946631d3"
+	},
+	"srp400-12": {
+		"src": "SONODYNE SRP 400 (12).webp",
+		"file": "img/srp400-12.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "b751a75d4415"
+	},
+	"srp400-13": {
+		"src": "SONODYNE SRP 400 (13).webp",
+		"file": "img/srp400-13.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "fff18bf6efb8"
+	},
+	"srp400-14": {
+		"src": "SONODYNE SRP 400 (14).webp",
+		"file": "img/srp400-14.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "436271af5d46"
+	},
+	"srp400-15": {
+		"src": "SONODYNE SRP 400 (15).webp",
+		"file": "img/srp400-15.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "14d6eaefedc8"
+	},
+	"srp400-02": {
+		"src": "SONODYNE SRP 400 (2).webp",
+		"file": "img/srp400-02.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "25ed897d3615"
+	},
+	"srp400-03": {
+		"src": "SONODYNE SRP 400 (3).webp",
+		"file": "img/srp400-03.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "eac5a026d032"
+	},
+	"srp400-04": {
+		"src": "SONODYNE SRP 400 (4).webp",
+		"file": "img/srp400-04.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "fb8a07ae3ed3"
+	},
+	"srp400-05": {
+		"src": "SONODYNE SRP 400 (5).webp",
+		"file": "img/srp400-05.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "1c78e240c96f"
+	},
+	"srp400-06": {
+		"src": "SONODYNE SRP 400 (6).webp",
+		"file": "img/srp400-06.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "2b166f2c7b97"
+	},
+	"srp400-07": {
+		"src": "SONODYNE SRP 400 (7).webp",
+		"file": "img/srp400-07.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "22f1fdc8b63a"
+	},
+	"srp400-08": {
+		"src": "SONODYNE SRP 400 (8).webp",
+		"file": "img/srp400-08.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "4a319284ddf1"
+	},
+	"srp400-09": {
+		"src": "SONODYNE SRP 400 (9).webp",
+		"file": "img/srp400-09.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "9019b33f2c8e"
+	},
+	"srp400-00": {
+		"src": "SONODYNE SRP 400.webp",
+		"file": "img/srp400-00.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "85cc64a50ebf"
+	},
+	"srp501-01": {
+		"src": "SONODYNE SRP 501 (1).webp",
+		"file": "img/srp501-01.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "b927bd1e8a78"
+	},
+	"srp501-10": {
+		"src": "SONODYNE SRP 501 (10).webp",
+		"file": "img/srp501-10.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "96ce5ad14b82"
+	},
+	"srp501-02": {
+		"src": "SONODYNE SRP 501 (2).webp",
+		"file": "img/srp501-02.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "25ed897d3615"
+	},
+	"srp501-03": {
+		"src": "SONODYNE SRP 501 (3).webp",
+		"file": "img/srp501-03.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "fa7373907709"
+	},
+	"srp501-04": {
+		"src": "SONODYNE SRP 501 (4).webp",
+		"file": "img/srp501-04.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "b79ff2246706"
+	},
+	"srp501-05": {
+		"src": "SONODYNE SRP 501 (5).webp",
+		"file": "img/srp501-05.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "c78a282a50e9"
+	},
+	"srp501-06": {
+		"src": "SONODYNE SRP 501 (6).webp",
+		"file": "img/srp501-06.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "6121b98d98b9"
+	},
+	"srp501-07": {
+		"src": "SONODYNE SRP 501 (7).webp",
+		"file": "img/srp501-07.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "6a7762953664"
+	},
+	"srp501-08": {
+		"src": "SONODYNE SRP 501 (8).webp",
+		"file": "img/srp501-08.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "ca885c6649ef"
+	},
+	"srp501-09": {
+		"src": "SONODYNE SRP 501 (9).webp",
+		"file": "img/srp501-09.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "0bf8f074069f"
+	},
+	"srp501-00": {
+		"src": "SONODYNE SRP 501.webp",
+		"file": "img/srp501-00.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "dbe5719f2e5f"
+	},
+	"srp601-01": {
+		"src": "SONODYNE SRP 601 (1).webp",
+		"file": "img/srp601-01.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "e78341da2522"
+	},
+	"srp601-10": {
+		"src": "SONODYNE SRP 601 (10).webp",
+		"file": "img/srp601-10.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "1788a9fc1651"
+	},
+	"srp601-11": {
+		"src": "SONODYNE SRP 601 (11).webp",
+		"file": "img/srp601-11.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "8b19310877bc"
+	},
+	"srp601-12": {
+		"src": "SONODYNE SRP 601 (12).webp",
+		"file": "img/srp601-12.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "1c31708c06dd"
+	},
+	"srp601-13": {
+		"src": "SONODYNE SRP 601 (13).webp",
+		"file": "img/srp601-13.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "46b5210ea753"
+	},
+	"srp601-02": {
+		"src": "SONODYNE SRP 601 (2).webp",
+		"file": "img/srp601-02.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "25ed897d3615"
+	},
+	"srp601-03": {
+		"src": "SONODYNE SRP 601 (3).webp",
+		"file": "img/srp601-03.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "55c3c82aaeda"
+	},
+	"srp601-04": {
+		"src": "SONODYNE SRP 601 (4).webp",
+		"file": "img/srp601-04.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "8c9fb3303432"
+	},
+	"srp601-05": {
+		"src": "SONODYNE SRP 601 (5).webp",
+		"file": "img/srp601-05.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "fa1136f2deec"
+	},
+	"srp601-06": {
+		"src": "SONODYNE SRP 601 (6).webp",
+		"file": "img/srp601-06.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "9be1bce835b5"
+	},
+	"srp601-07": {
+		"src": "SONODYNE SRP 601 (7).webp",
+		"file": "img/srp601-07.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "72b41736a274"
+	},
+	"srp601-08": {
+		"src": "SONODYNE SRP 601 (8).webp",
+		"file": "img/srp601-08.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "3a82d09ed5f3"
+	},
+	"srp601-09": {
+		"src": "SONODYNE SRP 601 (9).webp",
+		"file": "img/srp601-09.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "1c31708c06dd"
+	},
+	"srp601-00": {
+		"src": "SONODYNE SRP 601.webp",
+		"file": "img/srp601-00.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "c0dfbdef25fe"
+	},
+	"generic-02": {
+		"src": "SONODYNE STUDIO MONITOR (2).webp",
+		"file": "img/generic-02.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "004a01af3d97"
+	},
+	"generic-00": {
+		"src": "SONODYNE STUDIO MONITOR.webp",
+		"file": "img/generic-00.png",
+		"width": 1200,
+		"height": 800,
+		"hash": "da10368691f4"
+	},
+	"logo-shivansh-trim": {
+		"src": "logo-shivansh.png",
+		"file": "img/logo-shivansh-trim.png",
+		"width": 2372,
+		"height": 714
+	},
+	"logo-sonodyne-trim": {
+		"src": "logo-sonodyne.png",
+		"file": "img/logo-sonodyne-trim.png",
+		"width": 2372,
+		"height": 686
+	}
+}
