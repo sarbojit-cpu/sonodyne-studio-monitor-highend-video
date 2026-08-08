@@ -106,3 +106,40 @@ rhythm. Long-form is the right home for it.
 - Sonodyne branding is minimal: three placements total (one per product
   transition beat, one at the close). No catalogue framing beyond the five
   products shown.
+
+---
+
+# Long-form video (added after the reel)
+
+| File | What |
+|------|------|
+| `out/sonodyne-studio-series-longform.z01` + `.zip` | **Split zip** of the full-quality render — 1920×1080, 30fps, H.264 CRF 17, 594.00s, 147.6MB, **soundtrack embedded**. Rejoin: `zip -s 0 sonodyne-studio-series-longform.zip --out joined.zip && unzip joined.zip` (or open the .zip directly in 7-Zip/WinRAR). |
+| `out/longform_thumbnail_EN/HI/BN.png` | Landscape thumbnails, multi-unit range hero |
+| `out/RENDER-LOG-LONGFORM.txt` | Runtime, resolution, fps, file size |
+| `VOICEOVER-SCRIPT.md` | Full Option A (Warm/Trustworthy) VO copy, timed per segment |
+| `METADATA-LONGFORM.md` | YouTube title, description, chapter markers, tags |
+
+The render exceeds GitHub's 100MB per-file cap, which applies to zips too —
+hence the split archive at store-level compression (bit-identical video,
+nothing re-encoded).
+
+**The soundtrack is embedded in the mp4.** It is synthesized from
+`reel/src/data/longform-timeline.json` — the same file the composition is
+built from — so every transition hit is frame-accurate by construction:
+dip-to-black cuts get a thud + sub drop, blade wipes get a directional whoosh
+panned with the wipe, rack pulls get a muffled-to-clear resolve chime, and the
+bed follows the brief's Section 10 arc (minimal ambient through 350/400 →
+driving mid-tempo pulse through 501/601 → sub-bass swell for the SLF 210 →
+settle for the CTA). Verified post-render: AAC track at full duration with
+real signal throughout.
+
+**Voiceover:** required by the long-form spec, and the full timed script is
+delivered (`VOICEOVER-SCRIPT.md`) — but TTS generation remains blocked in
+this environment (same credential/network block as AUDIO.md documents). The
+on-screen text carries the complete narrative standalone; when VO is
+generated, each segment's audio lays at the start times in the script's
+timing table.
+
+**Heritage:** exactly one line, in the outro — "Engineered in India since
+1970" — per the long-form calibration. No founder biography, nothing in the
+intro.

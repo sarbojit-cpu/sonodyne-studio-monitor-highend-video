@@ -159,3 +159,8 @@ reel/node_modules/
 # any path called "out", so re-include this one explicitly.
 !out/
 !out/*
+
+# The long-form render is 147.6MB — over GitHub's 100MB per-file cap. The split
+# zip parts in out/ are committed instead; this must sit after the !out/ rules
+# above or they re-include it.
+out/sonodyne-studio-series-longform.mp4

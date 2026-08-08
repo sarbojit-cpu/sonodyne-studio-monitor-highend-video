@@ -1,0 +1,18 @@
+SONODYNE STUDIO SERIES — LONG-FORM RENDER LOG
+
+File           sonodyne-studio-series-longform.mp4
+Resolution     1920x1080 (16:9 landscape)
+Frame rate     30 fps
+Duration       594.00s (17820 frames)
+Codec          H.264, CRF 17, no size-driven compression
+File size      147.6 MB
+Render time    78.5 min
+Audio          embedded — synthesized soundtrack (public/audio/longform.wav), AAC in mp4
+
+Thumbnails
+  longform_thumbnail_EN.png — 1920x1080 PNG, 1.8MB
+  longform_thumbnail_HI.png — 1920x1080 PNG, 1.8MB
+  longform_thumbnail_BN.png — 1920x1080 PNG, 1.8MB
+
+NOTE: exceeds GitHub 100MB per-file limit — packaged as a zip at full quality.
+
